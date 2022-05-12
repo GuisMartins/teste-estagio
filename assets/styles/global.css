@@ -1,0 +1,48 @@
+:root{
+  --main-color: #01a79d;
+  --second-color: #f2f2f2;
+  --bg-footer-color: #656565; 
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--second-color);
+}
+
+
+.bg-color-main{
+  background-color: var(--main-color);
+}
+
+.bg-color-second{
+  background-color: var(--second-color);
+}
+
+#logo {
+  width: 168px;
+  height: 168px;
+}
+
+.tracer{
+  height: 1px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: var(--second-color);
+}
+
+.color-main{
+  color: var(--main-color)
+}
+
+footer{
+  background-color: var(--bg-footer-color);
+  height: 40px;
+}
