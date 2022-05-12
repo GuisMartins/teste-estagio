@@ -10,4 +10,4 @@ setTimeout(function () {
 
   alert('Você esta sendo redirecionado para vollpilates.com.br');
   window.location.href = 'https://www.vollpilates.com.br';
-}, 1500);
+}, 15000);
